@@ -93,13 +93,13 @@ const AuthModal = ({ show = false, onClose = () => null }) => {
               <div className='py-12'>
                 <div className='px-4 sm:px-12'>
                   <div className='flex justify-center'>
-                    <Link href='/'>
-                      <a className='flex items-center space-x-1'>
-                        <SparklesIcon className='shrink-0 w-8 h-8 text-rose-500' />
-                        <span className='text-xl font-semibold tracking-wide'>
-                          Supa<span className='text-rose-500'>Vacation</span>
-                        </span>
-                      </a>
+                    <Link href='/' passHref>
+                      <Image
+                        src='/chuti.svg'
+                        width={130}
+                        height={60}
+                        alt='logo'
+                      />
                     </Link>
                   </div>
 
